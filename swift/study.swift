@@ -66,3 +66,58 @@ let text = "I have \(apples + oranges) fruits."
 // let text = "I have" . apples . oranges . "fruits."
 // PHPみたいなドットでの連結はない
 print(text)
+
+
+// # 配列
+var array = ["osaka", "kyoto", "shiga"]
+print(array)
+
+// 値の置き換え
+array[0] = "test"
+print(array)
+
+// key value
+var occupations = [
+    "atai" : "001",
+    "watashi" : "002",
+]
+print(occupations)
+
+// 値の置き換え
+occupations["atai"] = "boku"
+print(occupations)
+
+// 空の配列
+let empty_array = [String]()
+print(empty_array)
+
+// 定数なので改変できない？
+// empty_array = "test"
+print(empty_array)
+
+// var empty_array02 = []
+// print(empty_array02)
+// うまくいかない
+
+// 参考：http://tea-leaves.jp/swift/content/%E9%85%8D%E5%88%97
+
+var empty_array02: [String] = []
+print (empty_array02)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
